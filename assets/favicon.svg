@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="AppKhazana logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a6e"/><stop offset="1" stop-color="#0b1a33"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd97a"/><stop offset="1" stop-color="#f0a92e"/>
+    </linearGradient>
+    <linearGradient id="gold-deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5b93f"/><stop offset="1" stop-color="#d98f16"/>
+    </linearGradient>
+  </defs>
+  <!-- app-icon squircle -->
+  <rect x="2" y="2" width="92" height="92" rx="24" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="90.5" height="90.5" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.5"/>
+  <!-- top light -->
+  <ellipse cx="48" cy="14" rx="30" ry="7" fill="#ffffff" opacity="0.07"/>
+  <!-- chest: one clean mark, generous spacing -->
+  <g>
+    <!-- lid -->
+    <path d="M26 50 Q26 34 48 34 Q70 34 70 50 L70 52 L26 52 Z" fill="url(#gold-deep)"/>
+    <!-- body -->
+    <rect x="26" y="52" width="44" height="22" rx="4" fill="url(#gold)"/>
+    <!-- lid seam -->
+    <rect x="26" y="50" width="44" height="3.5" fill="#8a5a00" opacity="0.45"/>
+    <!-- straps -->
+    <rect x="35" y="34" width="5" height="40" fill="#0b1a33" opacity="0.85"/>
+    <rect x="56" y="34" width="5" height="40" fill="#0b1a33" opacity="0.85"/>
+    <!-- lock -->
+    <rect x="42.5" y="52" width="11" height="12" rx="3" fill="#0b1a33"/>
+    <circle cx="48" cy="58" r="2.4" fill="#ffd97a"/>
+    <!-- coins peeking above the lid, centered -->
+    <circle cx="48" cy="30" r="6" fill="url(#gold)" stroke="#0b1a33" stroke-width="1.5"/>
+    <circle cx="48" cy="30" r="2.6" fill="none" stroke="#b97d0e" stroke-width="1.2"/>
+    <circle cx="36" cy="34" r="4" fill="url(#gold)" stroke="#0b1a33" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="60" cy="34" r="4" fill="url(#gold)" stroke="#0b1a33" stroke-width="1.2" opacity="0.95"/>
+  </g>
+</svg>

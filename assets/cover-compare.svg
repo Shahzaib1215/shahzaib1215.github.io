@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="App comparison">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a5a00"/><stop offset="1" stop-color="#f0a92e"/></linearGradient></defs>
+  <rect width="800" height="420" fill="url(#g)"/>
+  <circle cx="700" cy="60" r="110" fill="#fff" opacity="0.1"/><circle cx="80" cy="360" r="90" fill="#fff" opacity="0.1"/>
+  <rect x="200" y="60" width="140" height="200" rx="18" fill="#fff"/>
+  <text x="270" y="110" text-anchor="middle" font-size="22" font-weight="bold" fill="#16233a">FREE</text>
+  <text x="270" y="150" text-anchor="middle" font-size="16" fill="#5d6c84">Rs 0 / month</text>
+  <path d="M230 190 L310 190" stroke="#1f9d55" stroke-width="6" stroke-linecap="round"/>
+  <text x="270" y="230" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f9d55">✓ Worth it</text>
+  <rect x="460" y="60" width="140" height="200" rx="18" fill="#231a05"/>
+  <text x="530" y="110" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffd97a">PRO</text>
+  <text x="530" y="150" text-anchor="middle" font-size="16" fill="#c4b49a">Rs 1,400 / month</text>
+  <path d="M490 190 L570 190" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+  <text x="530" y="230" text-anchor="middle" font-size="18" font-weight="bold" fill="#ef4444">✕ Skip it</text>
+  <text x="400" y="330" text-anchor="middle" font-size="34" font-weight="bold" fill="#fff">VS</text>
+  <circle cx="400" cy="318" r="34" fill="#fff" opacity="0.18"/>
+</svg>
